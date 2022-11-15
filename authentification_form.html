@@ -9,21 +9,98 @@
     <title>Authentification form</title>
 </head>
 <body>
+
+<!-------------! Sign up Form -------------->
+
+<div class="signup mt-4">
+  <form>
+    <legend>Sign Up </legend>
+
+      <div class="form-group">
+          <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+
+      <div class="form-group">
+          <label for="exampleInputPassword1" class="form-label mt-4">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+
+      <div class="form-group">
+        <label for="exampleInputPassword1" class="form-label mt-4">Confirm Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+    </div>
+
+      <fieldset class="form-group mt-4">
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </fieldset>
+
+  </form>
+</div>
+  
+  <!-----------! Sign in Form -------------->
+
+  <div class="signin mt-4">
     <form>
-        <fieldset>
-          <legend>Legend</legend>
-          <div class="form-group">
+      <legend>Sign In </legend>
+
+        <div class="form-group">
             <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
+        </div>
+
+        <div class="form-group">
             <label for="exampleInputPassword1" class="form-label mt-4">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <fieldset class="form-group">
-          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+        <fieldset class="form-group mt-4">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Forgot your password ?</button>
         </fieldset>
-      </form>
+
+    </form>
+  </div>
+
+<!------------ Forgot Password Form ------------>
+<div class="forgotp mt-4">
+
+  <legend>Forgot your Password ? </legend>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll send you an email with a link to create a new password.</small>
+  </div>
+
+  <fieldset class="form-group mt-4">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </fieldset>
+
+</div>
+
+<!------------------ Change password ------------------>
+
+<div class="chpassword mt-4">
+
+  <legend> Change your password </legend>
+
+  <div class="form-group">
+    <label for="exampleInputPassword1" class="form-label mt-4">New Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="New Password">
+</div>
+
+<div class="form-group">
+  <label for="exampleInputPassword1" class="form-label mt-4">Confirm Password</label>
+  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+</div>
+
+<fieldset class="form-group mt-4">
+    <button type="submit" class="btn btn-primary">Submit</button>
+</fieldset>
+</div>
+
 </body>
 </html>
