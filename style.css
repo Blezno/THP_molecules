@@ -11025,3 +11025,19 @@ footer
   padding: 50px;
   margin: 50px;
 } */
+
+.jumbotron-hero {
+  background-image: url(assets/pexels-josh-sorenson-976866.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.second-banner {
+  background-image: url(assets/pexels-marcin-dampc-1684187.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
