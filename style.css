@@ -11000,3 +11000,21 @@ legend {
 .list-group-item .h6 {
   color: inherit;
 }
+
+
+footer
+{
+    border: 50px solid;
+    border-color: #dadce0;
+    background-color: #dadce0;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.feet {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
